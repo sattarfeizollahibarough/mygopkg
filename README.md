@@ -2,7 +2,7 @@
 
 This is where all my useful packages are placed!
 
-##installation
+## Installation
 
 go get github.com/go-sql-driver/mysql
 
