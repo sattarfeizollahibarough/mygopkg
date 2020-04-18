@@ -27,3 +27,10 @@ func CreateTable(db *sql.DB, tablename string, columns map[string]string) {
 		panic(err.Error())
 	}
 }
+func ExecuteQuery(db *sql.DB,query string){
+        _, err := db.Query(query)
+        if err != nil {
+                panic(err.Error())
+        }
+
+}
